@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --IconsColors: #e2e2e3;
+  --IconsFontSize: 20px;
+  --PostBG: #474747;
+}
+
+body {
+  background-color: #111111;
+}
+
+.main-container {
+  /* width: 100vw; */
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBar {
+  width: 15%;
+  font-size: var(--IconsFontSize);
+  display: flex;
+  align-items: center;
+  color: var(--IconsColors);
+  padding-top: 1%;
+}
+
+#bar {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: var(--IconsFontSize);
+}
+
+.search-bar {
+  width: 52.5%;
+  height: 75%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: var(--PostBG);
+}
+
+#glass {
+  margin-left: 3%;
+  font-size: var(--IconsFontSize);
+  color: var(--IconsColors);
+}
+
+.right-corner-icons {
+  width: 25%;
+  display: flex;
+  justify-content: right;
+  font-size: var(--IconsFontSize);
+  align-items: center;
+  padding-top: 1%;
+}
+
+.right-corner-icons > i {
+  margin-right: 8%;
+  color: var(--IconsColors);
+}
+
+.parent-cont {
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.aside {
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+}
+
+.compose {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  align-items: center;
+  /* margin-top: 5%; */
+  margin-left: 2%;
+  border-radius: 25px;
+}
+
+.Inbox {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  color: var(--IconsColors);
+}
+
+#inbox {
+  margin: 0 7.5%;
+}
+
+.Starred {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  color: var(--IconsColors);
+}
+#star {
+  margin: 0 7.5%;
+}
+
+.Snooze {
+  display: flex;
+  color: var(--IconsColors);
+  align-items: center;
+  margin-top: 2%;
+}
+#snoozed {
+  margin: 0 7.5%;
+}
+
+.Sent {
+  display: flex;
+  color: var(--IconsColors);
+  align-items: center;
+  margin-top: 2%;
+}
+#right-arrow {
+  margin: 0 7.5%;
+}
+
+.Draft {
+  display: flex;
+  color: var(--IconsColors);
+  align-items: center;
+  margin-top: 2%;
+}
+#file {
+  margin: 0 7.5%;
+}
+
+.More {
+  display: flex;
+  color: var(--IconsColors);
+  align-items: center;
+  margin-top: 2%;
+}
+#filter {
+  margin: 0 7.5%;
+}
+
+.label {
+  /* background-color: orange; */
+  /* width: 14%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20%;
+  margin-left: -15%;
+  color: var(--IconsColors);
+}
+
+.gmail {
+  width: 77%;
+  /* background-color: red; */
+  color: white;
+  border-radius: 25px;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: var(--PostBG);
+}
+
+.email {
+  /* background-color: chartreuse; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7.5%;
+  border-bottom: 1px solid black;
+}
+
+.drop-box {
+  display: flex;
+  width: 15%;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.counting {
+  display: flex;
+  width: 25%;
+  /* background-color: orange; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.chevron-arrows {
+  display: flex;
+  width: 20%;
+  /* background-color: pink; */
+  justify-content: space-between;
+}
+
+.email-headings {
+  display: flex;
+  height: 7.5%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.updates {
+  width: 25%;
+  display: flex;
+  /* border: 1px solid black; */
+  align-items: center;
+  padding-left: 2%;
+}
+
+#primary,
+#promotions,
+#socials,
+#updates {
+  margin-right: 5%;
+}
+
+.emails {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  /* background-color: var(--PostBG); */
+  /* border: 1px solid white; */
+}
+
+.primary-sec {
+  display: flex;
+  width: 25%;
+  justify-content: space-evenly;
+}
+
+.des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.right-corner-pics {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 4%;
+  justify-content: flex-start;
+  gap: 5% 0%;
+  margin-top: 2%;
+}
